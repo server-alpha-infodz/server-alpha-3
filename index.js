@@ -25,7 +25,7 @@ function keepAlive() {
       });
 
     // Ping external server
-    axios.get('https://informatique-dz-api-2-2mmi.onrender.com/')
+    axios.get('https://informatique-dz-api-3.onrender.com/')
       .then(response => {
         console.log('Ping to external server successful');
       })
